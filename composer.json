@@ -10,5 +10,17 @@
     ],
     "require": {
         "php": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "B7\\Configs\\Providers\\ConfigServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "B7\\Configs\\": "src"
+        }
     }
 }
