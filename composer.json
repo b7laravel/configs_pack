@@ -1,0 +1,14 @@
+{
+    "name": "b7/configs",
+    "description": "Config package",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "b7"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    }
+}
